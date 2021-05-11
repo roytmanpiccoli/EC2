@@ -10,7 +10,7 @@ rm -rf wordpress
 rm -rf wordpress-5.1.1.tar.gz
 chmod -R 755 wp-content
 chown -R apache:apache wp-content
-wget https://s3.amazonaws.com/bucketforwordpresslab-donotdelete/htaccess.txt
+wget https://github.com/Royjonespi/files/blob/30ef7f443edf059e51e0c73b3bbba42f6a3d4529/.htaccess
 mv htaccess.txt .htaccess
 chkconfig httpd on
 service httpd start
